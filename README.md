@@ -14,7 +14,7 @@ Se instalaron las dependencias necesarias para poder crear y ajustar cada parte 
 
 ### Version HOST 💻
 
-Para conocer un poco más sobre el proyecto se puede acceder online a una preversión a través del siguiente Limk: ([https://herreranv-farmacia-ms.vercel.app/](https://farmaciamscba.netlify.app/))
+Para conocer un poco más sobre el proyecto se puede acceder online a una preversión a través del siguiente Link:[FarmaciaMS](https://farmaciamscba.netlify.app/))
 
 ### Librerias de apoyo 📖
 
