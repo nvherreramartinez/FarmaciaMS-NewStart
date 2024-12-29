@@ -14,12 +14,12 @@ Se instalaron las dependencias necesarias para poder crear y ajustar cada parte 
 
 ### Version HOST 💻
 
-Para conocer un poco más sobre el proyecto se puede acceder online a una preversión a través del siguiente Link:[FarmaciaMS](https://farmaciamscba.netlify.app/))
+Para conocer un poco más sobre el proyecto se puede acceder online a una preversión a través del siguiente Link:[FarmaciaMS](https://farmaciamscba.netlify.app/)
 
 ### Librerias de apoyo 📖
 
 [Bootstrap](https://getbootstrap.com/) De la presente librería se usaron los recursos como el NavBar principal y los botones de cambio. <br>
-[Postimage](https://postimages.org/) Repositorio de imágenes en línea.
+[Postimage](https://postimages.org/) Repositorio de imágenes en línea. <br>
 [SweetAlert](https://sweetalert2.github.io/#configuration) Mejorar alertas al usuario.
 
 # Quien soy 🙎🏼‍♀️
