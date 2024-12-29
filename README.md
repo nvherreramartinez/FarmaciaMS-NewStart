@@ -2,7 +2,7 @@
 
 El siguiente E-Commerce fue pensado como una alternativa a los servicios presenciales que hoy brindan las diferentes dependencias de la Farmacia Centerl. El objetivo es llevar la Farmacia Central del Ministerio de Salud de la Provincia de Córdoba a la oferta online. El proyecto se crea en el marco del curso de React JS en la plataforma CoderHouse.
 
-![Index.jpg]([https://i.postimg.cc/2j4C6dNY/Index.jpg](https://i.postimg.cc/7YVLBPt8/index.png))]
+![Index.jpg](https://i.postimg.cc/7YVLBPt8/index.png)
 
 ### Instalación ⚙️
 
