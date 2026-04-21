@@ -43,13 +43,6 @@ const Checkout = () => {
             const ventas = collection(db, "orders")
             addDoc(ventas, orders)
             .then((res)=>{
-                //cart.forEach((item)=>{
-                //    const docRef = doc(db, "vademecum", item.id)
-                //    getDoc(docRef)
-                //    .then((dbDoc)=>{
-                 //       updateDoc(docRef, {stock: dbDoc.data().stock - item.cantidad})
-                 //   })
-                //})
                 setOrderId(res.id)
                 clear()
             })
@@ -57,9 +50,9 @@ const Checkout = () => {
         }
     }
     return (
-        <div className="checkout-container"> {/* Agregamos el contenedor principal */}
+        <div className="checkout-container"> 
             {orderId !== '' ? 
-                <div className="finish-compra-container"> {/* Clase para el mensaje final */}
+                <div className="finish-compra-container"> 
                     <h3>¡Gracias por tu compra!</h3>
                     <h5>Su pedido ha sido registrado con éxito.</h5>
                     <p className="order-number">Número de pedido: <span>{orderId}</span></p>
