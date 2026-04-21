@@ -19,25 +19,28 @@ const ItemDetail = ({producto}) => {
         addToCart(item, quantity)
     }
     return (
-        <div className="card-item">
-            <div style={{display: 'flex', justifyContent: 'space-around', flexDirection: 'column', alignItems: 'center', border: 'solid 2px black', padding: '10px'}}>
-                <h1>Detalle del producto: {producto.name}</h1>
-                <img className="card-img" src={producto.img} alt={producto.name}/>
-                <p>Descripción: {producto.description}</p>
-                <p>Stock disponible: {producto.stock}</p>
-                <p>${producto.price},00</p>
-                <>
-                {compra 
-                ? 
-                <div style={{display: 'flex', justifyContent: 'space-around', flexDirection: 'wrap', alignItems: 'space', padding: '10px'}}>
-                    <Link to='/cart' className='btn btn-primary'>Ir al carrito</Link>
-                    <Link to='/' className='btn btn-primary'>Seguir comprando</Link>
-                </div> 
-                : <ItemCount stock={producto.stock} initial={1} onAdd={onAdd}/>}
-                </>
+            <div className="card-item">
+                <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '10px', width: '100%'}}>
+                    <h1>{producto.name}</h1>
+                    <img className="card-img" src={producto.img} alt={producto.name}/>
+                    <p style={{textAlign: 'center'}}><strong>Descripción:</strong> {producto.description}</p>
+                    <p>Stock disponible: {producto.stock}</p>
+                    <h3>${producto.price},00</h3>
+                    
+                    <div style={{marginTop: '15px'}}>
+                        {compra 
+                        ? (
+                            <div style={{display: 'flex', gap: '10px'}}>
+                                <Link to='/cart' className='btn btn-primary'>Ir al carrito</Link>
+                                <Link to='/' className='btn btn-outline-primary'>Seguir comprando</Link>
+                            </div>
+                        ) : (
+                            <ItemCount stock={producto.stock} initial={1} onAdd={onAdd}/>
+                        )}
+                    </div>
+                </div>
             </div>
-        </div>
-    )
+      )
 }
 
 export default ItemDetail
