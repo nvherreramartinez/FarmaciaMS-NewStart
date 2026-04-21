@@ -2,6 +2,7 @@
 
 Este proyecto es una plataforma de e-commerce diseñada para la visualización y gestión de productos farmacéuticos. Permite a los usuarios navegar por un catálogo dinámico, gestionar un carrito de compras en tiempo real y finalizar pedidos a través de una integración con base de datos en la nube.
 
+📸 Demo Visual
 ![Index.jpg](https://i.postimg.cc/2j4C6dNY/Index.jpg)]
 
 ⚙️ Instalación 
@@ -54,7 +55,7 @@ Se configuró una validación robusta en el formulario de Checkout para asegurar
 📦 Instalación y Ejecución
 
 Clonar el repositorio:
-git clone [URL-de-tu-repo]
+git clone (https://github.com/nvherreramartinez/FarmaciaMS-NewStart.git)
 
 Instalar dependencias:
 npm install
