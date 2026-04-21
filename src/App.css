@@ -5,11 +5,41 @@
   box-sizing: border-box;
 }
 
-.cartWidgetContainer{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 5px;
+.cart-list-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+}
+
+.cart-list-container h2 {
+    border-bottom: 2px solid #7ae6ee;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.cart-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    gap: 15px;
+}
+
+.total-amount {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.cart-buttons {
+    display: flex;
+    gap: 10px;
 }
 .card-check{
     background-color: rgb(177, 232, 236);
