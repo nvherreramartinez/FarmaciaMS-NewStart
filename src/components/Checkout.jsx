@@ -57,26 +57,29 @@ const Checkout = () => {
         }
     }
     return (
-        <>
+        <div className="checkout-container"> {/* Agregamos el contenedor principal */}
             {orderId !== '' ? 
-                <div className="finish-compra">
-                    <h5>Su pedido ha sido registrado. ¡Gracias por su compra!.</h5>
-                    <h5>Su número de pedido es: {orderId}</h5>
-                    <Link to='/' className='btn btn-success'>Volver a Inicio</Link>
+                <div className="finish-compra-container"> {/* Clase para el mensaje final */}
+                    <h3>¡Gracias por tu compra!</h3>
+                    <h5>Su pedido ha sido registrado con éxito.</h5>
+                    <p className="order-number">Número de pedido: <span>{orderId}</span></p>
+                    <Link to='/' className='btn btn-success'>Volver al Inicio</Link>
                 </div>
                 :
                 <div>
-                    <h3>Ingrese sus datos personales para finalizar la compra</h3>
-                    <form className="d-flex flex-column align-items-center" onSubmit={finalizarCompra}>
+                    <h3>Finalizar Compra</h3>
+                    <p>Por favor, ingrese sus datos para procesar el pedido.</p>
+                    <form className="checkout-form" onSubmit={finalizarCompra}>
                         <input type="text" name="name" placeholder="Nombre" onChange={userData} />
-                        <input type="text" name="lastname" placeholder="Ingrese su apellido" onChange={userData} />
-                        <input type="text" name="address" placeholder="Ingrese su dirección" onChange={userData} />
-                        <input type="email" name="email" placeholder="Ingrese su email" onChange={userData} />
-                        <input type="email" name="second-mail" placeholder="Repita su mail" onChange={(e) => setValidate(e.target.value)}/>
-                        <button className='btn btn-success' type="submit">Enviar</button>
+                        <input type="text" name="lastname" placeholder="Apellido" onChange={userData} />
+                        <input type="text" name="address" placeholder="Dirección" onChange={userData} />
+                        <input type="email" name="email" placeholder="Email" onChange={userData} />
+                        <input type="email" name="second-mail" placeholder="Repita su email" onChange={(e) => setValidate(e.target.value)}/>
+                        <button className='btn-enviar' type="submit">Generar Orden</button>
                     </form>
-                </div>}
-        </>
+                </div>
+            }
+        </div>
     )
 }
 export default Checkout
