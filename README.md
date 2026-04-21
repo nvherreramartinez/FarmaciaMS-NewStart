@@ -3,7 +3,7 @@
 Este proyecto es una plataforma de e-commerce diseñada para la visualización y gestión de productos farmacéuticos. Permite a los usuarios navegar por un catálogo dinámico, gestionar un carrito de compras en tiempo real y finalizar pedidos a través de una integración con base de datos en la nube.
 
 📸 Demo Visual
-![Index.jpg]https://i.postimg.cc/1XxpK9X9/farmacia-ms.png]
+![Index.jpg][https://i.postimg.cc/1XxpK9X9/farmacia-ms.png]
 
 ⚙️ Instalación 
 
