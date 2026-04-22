@@ -27,21 +27,21 @@ Para el desarrollo de esta plataforma se seleccionaron herramientas que garantiz
 
 Core del Proyecto
 
-React.js: Arquitectura basada en componentes funcionales para una interfaz dinámica y eficiente.
-Context API: Implementación de un estado global para la persistencia del carrito de compras en toda la navegación.
-[React Router Dom](https://reactrouter.com/): Motor de navegación para gestionar rutas amigables, permitiendo la segmentación por categorías y el acceso a detalles de producto.
-[Firebase-FireStore](https://firebase.google.com/?hl=es-419): Solución BaaS (Backend as a Service) utilizada para el almacenamiento del catálogo de productos (Vademécum) y la persistencia de las órdenes de compra generadas.
+React.js: Arquitectura basada en componentes funcionales para una interfaz dinámica y eficiente.<br>
+Context API: Implementación de un estado global para la persistencia del carrito de compras en toda la navegación.<br>
+[React Router Dom](https://reactrouter.com/): Motor de navegación para gestionar rutas amigables, permitiendo la segmentación por categorías y el acceso a detalles de producto.<br>
+[Firebase-FireStore](https://firebase.google.com/?hl=es-419): Solución BaaS (Backend as a Service) utilizada para el almacenamiento del catálogo de productos (Vademécum) y la persistencia de las órdenes de compra generadas.<br>
 
 Librerías de Apoyo y UI
 
-[Bootstrap](https://getbootstrap.com/): Utilizado para la estructura base del NavBar y componentes de acción rápida, garantizando un layout consistente.
-[SweetAlert](https://sweetalert2.github.io/#configuration): Implementado para mejorar el feedback visual al usuario en el flujo de checkout y validaciones de errores.
-[React Spinners](https://www.davidhu.io/react-spinners/): Uso de indicadores de carga personalizados para gestionar visualmente los tiempos de respuesta asíncronos de Firebase.
-CSS3 (Custom): Aplicación de Flexbox avanzado para lograr una grilla de productos simétrica, con tarjetas de tamaño unificado y alineación de elementos informativos.
+[Bootstrap](https://getbootstrap.com/): Utilizado para la estructura base del NavBar y componentes de acción rápida, garantizando un layout consistente.<br>
+[SweetAlert](https://sweetalert2.github.io/#configuration): Implementado para mejorar el feedback visual al usuario en el flujo de checkout y validaciones de errores.<br>
+[React Spinners](https://www.davidhu.io/react-spinners/): Uso de indicadores de carga personalizados para gestionar visualmente los tiempos de respuesta asíncronos de Firebase.<br>
+CSS3 (Custom): Aplicación de Flexbox avanzado para lograr una grilla de productos simétrica, con tarjetas de tamaño unificado y alineación de elementos informativos.<br>
 
 Gestión de Assets y Almacenamiento
 
-[Postimage](https://postimages.org/): Repositorio externo seleccionado para el hosteo de imágenes, reemplazando a [Imgbb](https://imgbb.com/) tras detectar problemas de persistencia. Esto permitió limpiar la carpeta /public del proyecto, optimizando el rendimiento de la aplicación.
+[Postimage](https://postimages.org/): Repositorio externo seleccionado para el hosteo de imágenes, reemplazando a [Imgbb](https://imgbb.com/) tras detectar problemas de persistencia. Esto permitió limpiar la carpeta /public del proyecto, optimizando el rendimiento de la aplicación.<br>
 
 🗒️ Nota técnica: La integración de estas herramientas permite que la Farmacia del Ministerio funcione como una Single Page Application (SPA) robusta, manteniendo la integridad de los datos desde la selección del medicamento hasta la confirmación de la orden.
 
