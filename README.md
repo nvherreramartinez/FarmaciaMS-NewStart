@@ -27,7 +27,7 @@ Para el desarrollo de esta plataforma se seleccionaron herramientas que garantiz
 
 Core del Proyecto
 
-React.js: Arquitectura basada en componentes funcionales para una interfaz dinámica y eficiente.<br>
+[React.js](https://es.react.dev/): Arquitectura basada en componentes funcionales para una interfaz dinámica y eficiente.<br>
 Context API: Implementación de un estado global para la persistencia del carrito de compras en toda la navegación.<br>
 [React Router Dom](https://reactrouter.com/): Motor de navegación para gestionar rutas amigables, permitiendo la segmentación por categorías y el acceso a detalles de producto.<br>
 [Firebase-FireStore](https://firebase.google.com/?hl=es-419): Solución BaaS (Backend as a Service) utilizada para el almacenamiento del catálogo de productos (Vademécum) y la persistencia de las órdenes de compra generadas.<br>
